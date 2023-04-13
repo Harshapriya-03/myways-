@@ -1,0 +1,11 @@
+l=list(map(int,input().split())
+s=sum(l)
+for i in range(1,s):
+  if i %4==0:
+     print("Fizz",end="")
+  elif i%5==0:
+     print("buzz",end="")
+  elif i%4==0 and i%5==0:
+     print("Fizz Buzz",end="")
+  else:
+     print(i,end="")
